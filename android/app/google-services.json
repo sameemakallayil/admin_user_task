@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600962826552",
+    "project_id": "adminuser-a439e",
+    "storage_bucket": "adminuser-a439e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600962826552:android:772a6082fcee6b1c4e01cd",
+        "android_client_info": {
+          "package_name": "com.example.admin_user_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyGR3HzlKmr_vgJQT3_rFOQCzy_qwzRBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
