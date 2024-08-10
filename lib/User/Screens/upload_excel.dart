@@ -39,16 +39,6 @@ class _UploadExcelScreenState extends State<UploadExcelScreen> {
           print('Error fetching weather for ${location.city}, ${location.country}: $e');
           // Optionally, handle errors (e.g., set default values or show error messages)
         }
-      // for (var i = 0; i < _parsedLocations.length; i++) {
-      //   setState(() {
-      //     _parsedLocations[i] = LocationModel(
-      //       country: _parsedLocations[i].country,
-      //       state: _parsedLocations[i].state,
-      //       district: _parsedLocations[i].district,
-      //       city: _parsedLocations[i].city,
-      //       weatherData: {'report': i % 5},
-      //     );
-      //   });
       }
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Excel file parsed successfully')),
